@@ -47,12 +47,12 @@ if st.button("Predict"):
     if predicted_class == 1:
         advice = (
             f"According to our model, you have a high risk of DLBCL. "
-            f"The model predicts that your probability of having Severe ACP is {probability:.1f}%. "
+            f"The model predicts that your probability of having DLBCL is {probability:.1f}%. "
         )
     else:
         advice = (
             f"According to our model, you have not a high risk of DLBCL. "
-            f"The model predicts that your probability of not having Mild ACP is {probability:.1f}%. "
+            f"The model predicts that your probability of not having DLBCL is {probability:.1f}%. "
         )
 
     st.write(advice)
