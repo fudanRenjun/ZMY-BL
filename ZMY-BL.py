@@ -6,7 +6,7 @@ import pandas as pd
 import shap
 
 # 加载随机森林模型
-model = joblib.load('E:/RS/ZMY/BL/feature/RF/RF-7.pkl')
+model = joblib.load('RF-7.pkl')
 
 # 定义特征名称（根据你的数据调整）
 feature_names = ["TP",	"LYMPH%",	"LYMPH#",	"GLB",	"MCHC",	"MONO%",	"HCT"]
